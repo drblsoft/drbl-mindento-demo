@@ -55,7 +55,7 @@ class BusinessTripManagerService
         return $businessTrip;
     }
 
-    public function calculateBusinessTripsDietsForEmployee(string $employeeId): array
+    public function calculateBusinessTripsDietsForEmployee(int $employeeId): array
     {
         $result = array();
         $employee = Employee::findOne($employeeId);
