@@ -1,0 +1,7 @@
+html, body{
+    background: #222;
+    color: #ddd;
+}
+html, body, footer * {
+    color: #ddd;
+}

@@ -1,0 +1,175 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2023-11-06T10:47:42.181Z",
+    "__export_source": "insomnia.desktop.app:v2023.5.8",
+    "resources": [
+        {
+            "_id": "req_2f2f98a995d84b369a04331667f96813",
+            "parentId": "wrk_e4da6486c48149dd9633654921fbc368",
+            "modified": 1699267542689,
+            "created": 1699193842259,
+            "url": "http://localhost:8080/api/employee/business-trip",
+            "name": "add employee business trip",
+            "description": "",
+            "method": "POST",
+            "body": {},
+            "parameters": [
+                {
+                    "id": "pair_b60794a3f0cd46fa952a8ef22442562d",
+                    "name": "employeeId",
+                    "value": "1",
+                    "description": "",
+                    "disabled": false
+                },
+                {
+                    "id": "pair_d652c79183e14894bbc0c39bec1f4531",
+                    "name": "start",
+                    "value": "2024-05-10 11:22:33",
+                    "description": "",
+                    "disabled": false
+                },
+                {
+                    "id": "pair_e978b7cb77d44cd092102638d4a1b983",
+                    "name": "end",
+                    "value": "2024-05-30 11:22:33",
+                    "description": ""
+                },
+                {
+                    "id": "pair_14658b32e79b4319b831cf36f36ba6cc",
+                    "name": "countryCode",
+                    "value": "PL",
+                    "description": ""
+                }
+            ],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/2023.5.8"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1699193842259,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_e4da6486c48149dd9633654921fbc368",
+            "parentId": null,
+            "modified": 1699191884450,
+            "created": 1699191884450,
+            "name": "My Collection",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_1e7caa3ed6534475b94718688052469e",
+            "parentId": "wrk_e4da6486c48149dd9633654921fbc368",
+            "modified": 1699194195702,
+            "created": 1699192543440,
+            "url": "http://localhost:8080/api/employee/business-trips?employeeId=1",
+            "name": "get employee business trips",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/2023.5.8"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1699192543440,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "req_ca813259da2a4ca59236376ae684e30a",
+            "parentId": "wrk_e4da6486c48149dd9633654921fbc368",
+            "modified": 1699191960096,
+            "created": 1699191895507,
+            "url": "http://localhost:8080/api/employee/save",
+            "name": "save employee",
+            "description": "",
+            "method": "POST",
+            "body": {},
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "insomnia/2023.5.8"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1699191895507,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_e136067e655856765c475ea60db813ee067c8748",
+            "parentId": "wrk_e4da6486c48149dd9633654921fbc368",
+            "modified": 1699191884454,
+            "created": 1699191884454,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1699191884455,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_e136067e655856765c475ea60db813ee067c8748",
+            "parentId": "wrk_e4da6486c48149dd9633654921fbc368",
+            "modified": 1699191932737,
+            "created": 1699191884457,
+            "name": "Default Jar",
+            "cookies": [
+                {
+                    "key": "PHPSESSID",
+                    "value": "36vn7b6hcfv2qlfro7p6bjedgc",
+                    "domain": "localhost",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": true,
+                    "creation": "2023-11-05T13:45:32.732Z",
+                    "lastAccessed": "2023-11-05T13:45:32.732Z",
+                    "id": "9766330725532129"
+                },
+                {
+                    "key": "_csrf",
+                    "value": "4598348535e0ddc1b0d20b08753e28baa1abbb631d0800d279e5bed1b0fff424a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22ITLu82ggtmN8xGK_YAG99Dwadm8t5AzB%22%3B%7D",
+                    "domain": "localhost",
+                    "path": "/",
+                    "httpOnly": true,
+                    "hostOnly": true,
+                    "creation": "2023-11-05T13:45:32.736Z",
+                    "lastAccessed": "2023-11-05T13:45:32.736Z",
+                    "sameSite": "lax",
+                    "id": "7009080584729519"
+                }
+            ],
+            "_type": "cookie_jar"
+        }
+    ]
+}
